@@ -1,0 +1,54 @@
+@import './src/styles.scss';
+
+#title{
+    font-size: 36px;
+    font-weight: 800;
+    @include colors( #8D5DA7, #ffffff);
+}
+
+#topimg{
+    position: absolute;
+    right: 1715px;
+    top: 1222px;
+    z-index: -1;}
+
+    #img{
+        width: 41vw;
+     
+
+    }
+
+    #btmspan{
+        position: absolute;
+        right:1060px;
+        top: 1435px;
+        z-index: -1; 
+    }
+#subh{
+    font-size: 18px;
+    font-weight: 400;
+}
+    .circlec{
+       box-shadow: 1px 6px 6px 0.2px rgb(24, 24, 24);
+       width: 50px;
+       height: 50px;
+    }
+.circle{
+  
+    width: 180px;
+}
+#butn{
+    @include colors(#FDB515,#8D5DA7);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.descr{
+    font-size: 20px;
+    font-weight: 600;
+}
+

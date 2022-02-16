@@ -1,12 +1,58 @@
-<p>special-apps works!</p>
-
 <div class="container-fluid">
-    <div class="row">
-    <div class="card col-2" *ngFor="let app of apps">
-        <div class=""><img class="card-img-right" [src]="app.logo"></div>
-    </div>
-    <div class="row">
-    </div>
-</div>
-</div>
+    <div class="row my-5 text-center  d-flex justify-content-center">
+        <div class="row">
 
+            <p id="title">
+                التطبيقات المميزة
+            </p>
+
+        </div>
+        <div class="row">
+
+            <p id="SUBtitle">
+                تطبيقات تقدم حلول وخدمات مميزة نوصي بتجربتها
+            </p>
+
+        </div>
+    </div>
+    <div class="row mt-5 mb-2 d-flex justify-content-center">
+        <div class="card col-2 mx-2 my-5 border-0 rounded-3" id="crd" *ngFor="let app of apps">
+            <div class="row my-3">
+                <div class="col-2">
+                    <img class="card-img-right" [src]="app.logo" />
+                </div>
+                <div class="col-5" id="info">
+                    <div class="row">
+                        <div class="col-6 mx-1">
+                            {{ app.title }}
+                        </div>
+                        <div class="col-1">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="col-2">
+                            {{ app.rate }}
+                        </div>
+                    </div>
+                    <div class="row mx-1">
+                        {{ app.developer }}
+                    </div>
+                </div>
+            </div>
+            <div class="row me-5 mb-1">
+                <div class="row mb-2">
+                    {{app.description}}
+                </div>
+                <div class="row  mb-2">
+                    {{app.description}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="row me-2 mt-2 my-5">
+            <div class="col-12 mt-2 mb-5 text-center">
+                <button class="btn  py-2 mx-5 px-5" id="butn">جميع التطبيقات <img src="assets\DownArrow 3.svg"></button>
+            </div>
+        </div>
+
+</div>

@@ -11,7 +11,7 @@ img:string=""
     this.apps=[{id:1, logo:'assets/bbaa6fd3-1070-4a1b-90c3-68c808870b261.png', title:"قمرة", rate:5, developer: "مصطفي نصر", description:'نظام الولاء الأمثل الذي يمكنك من رفع مبيعاتك' },
     {id:1, logo:'assets/bbaa6fd3-1070-4a1b-90c3-68c808870b261.png', title:"قمرة", rate:5, developer: "مصطفي نصر", description:'نظام الولاء الأمثل الذي يمكنك من رفع مبيعاتك' },
     {id:1, logo:'assets/bbaa6fd3-1070-4a1b-90c3-68c808870b261.png', title:"قمرة", rate:5, developer: "مصطفي نصر", description:'نظام الولاء الأمثل الذي يمكنك من رفع مبيعاتك' },
-    {id:1, logo:'assets/Ellipse 250 (1).png', title:"قمرة", rate:5, developer: "مصطفي نصر", description:'نظام الولاء الأمثل الذي يمكنك من رفع مبيعاتك' },
+    {id:1, logo:'assets/bbaa6fd3-1070-4a1b-90c3-68c808870b261.png', title:"قمرة", rate:5, developer: "مصطفي نصر", description:'نظام الولاء الأمثل الذي يمكنك من رفع مبيعاتك' },
     ]
   }
 

@@ -1,0 +1,46 @@
+@import './src/styles.scss';
+
+#title{
+    font-size: 36px;
+    font-weight: 800;
+    @include colors( #8D5DA7, #ffffff);
+}
+
+#text{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+#slide{
+    width: 981px;
+}
+
+#bgspan{
+    position: absolute;
+    right: 363px;
+    top: 770.52px;
+    z-index: -1;
+}
+
+#topimg{
+    position: absolute;
+    right: 1306px;
+    top: 402px;
+    z-index: -1;
+}
+
+#butn{
+    @include colors(#FDB515,#8D5DA7);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+#last{
+    margin-bottom : 50%;
+}

@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family: 'Cairo';
+    src: url('assets/Cairo-VariableFont_wght.ttf') format("opentype");
+
+}
+
+@mixin colors ($color, $bgcolor) {
+    color: $color;
+    background-color: $bgcolor;
+}

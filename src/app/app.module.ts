@@ -7,7 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { FirstComponent } from './components/first/first.component';
 import { NeedsComponent } from './components/needs/needs.component';
 import { SpecialAppsComponent } from './components/special-apps/special-apps.component';
-import { PartenersComponent } from './components/parteners/parteners.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { FooterComponent } from './components/footer/footer.component';
     FirstComponent,
     NeedsComponent,
     SpecialAppsComponent,
-    PartenersComponent,
     FooterComponent
   ],
   imports: [
